@@ -12,9 +12,11 @@ class HomePage extends StatelessWidget {
         children: [
           Form(
             key: _formKey,
-            onChanged: () => print(_formKey.currentState.toString()),
             child: Column(
               children: [
+                TextFormField(),
+                TextFormField(),
+                TextFormField(),
                 TextFormField(),
               ],
             ),
